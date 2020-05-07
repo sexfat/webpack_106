@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import TweenMax  from 'gsap';
 import './style.css'
+import './main.css'
 
 
 // $('.box').css('background-color' ,"yellow");
