@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.box {
+
+    width: 700px;
+    height: 200px;
+    background-color: rgb(72, 255, 0);
+}

@@ -1,10 +1,11 @@
 import $ from 'jquery';
-import TweenMax  from 'gsap'
+import TweenMax  from 'gsap';
+import './style.css'
 
 
-$('.box').css('background-color' ,"yellow");
+// $('.box').css('background-color' ,"yellow");
 
 
-TweenMax.to('.box' ,1 ,{x: 400,
-y: 400}); 
+TweenMax.to('.box' ,1 ,{x: 10,
+y: 60}); 
 // console.log('ok');
