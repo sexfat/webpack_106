@@ -1,17 +1,18 @@
 import hello from './hello';
-import content from './content';
-import $  from 'jquery';
+import  world from './world';
+import $ from 'jquery';
 import TweenMax  from 'gsap'
 
 
-$('.box').css('background-color' ,"#000");
+$('.box').css('background-color' ,"blue");
 
 
-TweenMax.to('.box' ,1 ,{x: 100}); 
+TweenMax.to('.box' ,1 ,{x: 300}); 
+// console.log('ok');
 
 
 
 
 
 
-console.log(hello + content);
+console.log(hello +  world);
